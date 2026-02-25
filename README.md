@@ -4,7 +4,7 @@
 https://playbox.play.plbx.ai/playoff/runner
 
 ## Стек
-- Cocos Creator (2D)
+- Cocos Creator 3.8.8 (2D конфигурация)
 - JavaScript/TypeScript (в зависимости от выбранной конфигурации проекта)
 
 ## Цель
@@ -21,11 +21,22 @@ https://playbox.play.plbx.ai/playoff/runner
 Подробный чеклист выполнения находится в [TODO.md](./TODO.md).
 
 ## Как начать
-1. Откройте проект в Cocos Creator.
-2. Настройте стартовую сцену и базовые игровые объекты.
-3. Реализуйте core-геймплей по референсу.
-4. Подготовьте single-file HTML сборку.
-5. Проверьте ограничение размера бандла.
+1. Запустите Cocos Creator 3.8.8:
+   `D:\COCOS\Creator\3.8.8\CocosCreator.exe`
+2. Откройте проект из папки:
+   `Z:\MINI\PlayboxTest`
+3. Либо откройте напрямую командой:
+   `D:\COCOS\Creator\3.8.8\CocosCreator.exe --path "Z:\MINI\PlayboxTest"`
+4. Базовая сцена проекта: `assets/scene.scene`.
+5. Реализуйте core-геймплей по референсу.
+6. Подготовьте single-file HTML сборку.
+7. Проверьте ограничение размера бандла.
+
+## Текущий статус
+- Инициализирован git-репозиторий и подключён `origin`.
+- Проект создан через UI Cocos Creator и готов как стартовая основа.
+- В `package.json` зафиксирована версия редактора: `3.8.8`.
+- Конфиг движка настроен на 2D-модули (`settings/v2/packages/engine.json`).
 
 ## Git remote
 Проект привязан к:

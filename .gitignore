@@ -1,24 +1,20 @@
-# Cocos Creator generated files (2.x / 3.x)
+#///////////////////////////
+# Cocos Creator 3D Project
+#///////////////////////////
 library/
 temp/
 local/
 build/
 profiles/
-
-# Native/export artifacts
 native/
 
-# Node ecosystem (if build scripts/tools are used)
+# NPM
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
 
-# IDE/editor
-.idea/
+# IDE
 .vscode/
+.idea/
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
